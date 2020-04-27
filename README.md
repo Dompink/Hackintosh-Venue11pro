@@ -33,3 +33,4 @@ Hyperthread control
 上述步骤完成后，cpu，gpu，蓝牙，键盘，usb等应该都是可以正常使用的，声卡（按博客链接的步骤我并没有做成功，又选择了其他方法）和触摸屏驱动如下
 下载安装clover configuration，挂载进入ssd，把相关kext挂在./clover/kexts/other下即可，但是触摸驱动安装后会出现一段代码，并且需要多次启动才能进入系统的问题，所以我最后并没有使用这个驱动
 VoodooHDA万能声卡，在contents的nfo.plist寻找一行文本：<key>IOPCIclassMatch</key><string>一串看不懂的</string>修改成：              <key>IOPCIPrimaryMatch</key><string>0x9c208086</string>（<数值>0x声卡dev id、ven id<地址>（我的电脑声卡dev id是9c20，ven id是8086，这个在windows下或者pe下进入设备管理器，找到High Definition Audio Controller选设备id即可得到），修改完成后，扔./clover/kexts/other里，并将其放入kext utility，输入密码，等待enjoy完成，再重启就发现声卡可以使用了
+参考链接<https://jingyan.baidu.com/album/4b52d702469307bc5d774b4a.html?picindex=6>
