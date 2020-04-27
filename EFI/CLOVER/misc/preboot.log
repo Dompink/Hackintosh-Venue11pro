@@ -1,0 +1,337 @@
+0:100  0:100  MemLog inited, TSC freq: 1596307110
+0:100  0:000  
+0:100  0:000  Now is 11.4.2015,  22:37:56 (GMT+2047)
+0:100  0:000  Starting Clover rev 3193 on American Megatrends EFI
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,17B93D69-4C7F-4D68-B152-33D2FD065508,0x200800,0xFA000) @D1C2D598
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:100  0:000  Total Memory Slots Count = 2
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 4096MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device =  DIMM A
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 4096MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device =  DIMM B
+0:100  0:000  Boot status=0
+0:100  0:000  Clover revision: 3193  running on Venue 11 Pro 7130 vPro
+0:100  0:000  ... with board  
+0:100  0:000  CPU Vendor = 756E6547 Model=40651
+0:100  0:000  The CPU supported turbo
+0:100  0:000  BrandString = Intel(R) Core(TM) i5-4300Y CPU @ 1.60GHz
+0:100  0:000  MSR 0xE2 before patch 1E008408
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xE4              00051814
+0:100  0:000  MSR 0xCE              0006063B_F3011000
+0:100  0:000  non-usable FLEX_RATIO = 10000
+0:100  0:000  corrected FLEX_RATIO = 0
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency=100MHz DMIvalue=100000kHz
+0:100  0:000  Corrected FSBFrequency=100MHz
+0:100  0:000  Vendor/Model/Stepping: 0x756E6547/0x45/0x1
+0:100  0:000  Family/ExtFamily: 0x6/0x0
+0:100  0:000  MaxDiv/MinDiv: 16.0/6
+0:100  0:000  Turbo: 20/20/20/23
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 4
+0:100  0:000  Cores: 2
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 1600 MHz
+0:100  0:000  TSC: 1600 MHz
+0:100  0:000  PIS: 400 MHz
+0:100  0:000  PCI (00|00:00.00) : 8086 0A04 class=060000
+0:100  0:000  PCI (00|00:02.00) : 8086 0A1E class=030000
+0:100  0:000  Found GFX model=Intel HD Graphics 4400
+0:100  0:000  PCI (00|00:03.00) : 8086 0A0C class=040300
+0:100  0:000  PCI (00|00:14.00) : 8086 9C31 class=0C0330
+0:100  0:000  PCI (00|00:16.00) : 8086 9C3A class=078000
+0:100  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:16.03) : 8086 9C3D class=070002
+0:100  0:000  PCI (00|00:1B.00) : 8086 9C20 class=040300
+0:100  0:000  PCI (00|00:1C.00) : 8086 9C14 class=060400
+0:100  0:000  PCI (00|01:00.00) : 8086 08B1 class=028000
+0:100  0:000  PCI (00|00:1C.03) : 8086 9C16 class=060400
+0:102  0:001  PCI (00|02:00.00) : 1217 8621 class=080501
+0:102  0:000  PCI (00|00:1D.00) : FFFF FFFF class=FFFFFF
+0:102  0:000  PCI (00|00:1F.00) : 8086 9C43 class=060100
+0:102  0:000  PCI (00|00:1F.02) : 8086 9C03 class=010601
+0:102  0:000  PCI (00|00:1F.03) : 8086 9C22 class=0C0500
+0:102  0:000  PCI (00|00:1F.06) : FFFF FFFF class=FFFFFF
+0:102  0:000  Clover load options size = 210 bytes
+0:102  0:000  Found Plist String = , parse XML in LoadOptions
+0:102  0:000  Xml in load options is bad
+0:105  0:003  Using OEM config.plist at path: EFI\CLOVER\config.plist
+0:105  0:000  EFI\CLOVER\config.plist loaded: Success
+0:106  0:000  Found theme directory: EMBEDDED
+0:107  0:001  Found theme directory: RANDOM
+0:108  0:001  Loading early settings
+0:108  0:000  timeout set to 5
+0:108  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:108  0:000  Default theme: embedded
+0:108  0:000  Hiding entries with string VolumeUUID_NOT_SHOWN
+0:108  0:000  Hiding entries with string EntryPath_NOT_SHOWN
+0:108  0:000  Hiding entries with string VolumeName_NOT_SHOWN
+0:108  0:000  LoadDrivers() start
+0:109  0:000  Loading HFSPlus.efi  status=Success
+0:110  0:001   - driver needs connecting
+0:110  0:000  Loading FSInject-64.efi  status=Success
+0:111  0:000  Loading OsxFatBinaryDrv-64.efi  status=Success
+0:112  0:000  Loading VBoxHfs-64.efi  status=Success
+0:113  0:000   - driver needs connecting
+0:113  0:000  Loading DataHubDxe-64.efi  status=Success
+0:120  0:007  Loading EmuVariableUefi-64.efi  status=Success
+0:120  0:000  EmuVariableUefi Initialize: VariableCommonInitialize = Success, orig services stored, install gEmuVariableControlProtocolGuid = Success
+0:122  0:001  Loading OsxAptioFixDrv-64.efi  status=Success
+0:123  0:000  Loading PartitionDxe-64.efi  status=Success
+0:124  0:000   - driver needs connecting
+0:124  0:000  Video bios patch requested or CustomEDID - forcing video reconnect
+0:124  0:000  4 drivers needs connecting ...
+0:124  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:124  0:000  Partition driver loaded: 
+0:124  0:000  HFS+ driver loaded 
+0:124  0:000  Video driver loaded: disconnect Success
+0:523  0:399  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:523  0:000  VideoBiosPatchNativeFromEdid:
+0:523  0:000   Bios: VideoBiosPatchInit(LegacyRegion = Success) = Success
+0:523  0:000   VideoBiosUnlock:  unlocked
+0:526  0:002   Patching: unknown - not patching
+0:526  0:000   VideoBiosLock: Success
+2:132  1:605  LoadDrivers() end
+2:132  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+2:145  0:013  Console modes reported: 4, available modes:
+2:145  0:000    Mode 1: 80x25
+2:145  0:000    Mode 2: 80x50
+2:145  0:000    Mode 3: 100x31
+2:145  0:000    Mode 4: 240x56 (current mode)
+2:145  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,17B93D69-4C7F-4D68-B152-33D2FD065508,0x200800,0xFA000)
+2:146  0:000  ScanSPD() start
+2:148  0:002  SMBus CmdReg: 0x3
+2:148  0:000  Scanning SMBus [8086:9C22], mmio: 0xF7E19004, ioport: 0xF040, hostc: 0x11
+2:148  0:000  Slots to scan [8]...
+2:197  0:048  ScanSPD() end
+2:197  0:000  Get Acpi Tables List from RSDT:
+2:197  0:000   Found table: FACP  CBX3    len=132
+2:197  0:000   Found table: APIC  CBX3    len=114
+2:197  0:000   Found table: FPDT  CBX3    len=68
+2:197  0:000   Found table: SLIC  CBX3    len=374
+2:197  0:000   Found table: LPIT  CBX3    len=92
+2:197  0:000   Found table: SSDT  sensrhub len=552
+2:197  0:000   Found table: SSDT  Ult0Rtd3 len=5945
+2:197  0:000   Found table: SSDT  Cpu0Ist len=1220
+2:197  0:000   Found table: SSDT  CpuPm len=2776
+2:197  0:000   Found table: HPET  CBX3    len=56
+2:197  0:000   Found table: SSDT  SataTabl len=1109
+2:197  0:000   Found table: MCFG  CBX3    len=60
+2:197  0:000   Found table: ASF!   HCG len=165
+2:197  0:000   Found table: MSDM  CBX3    len=85
+2:197  0:000   Found table: BGRT   len=56
+2:197  0:000   Found table: DMAR  HSW  len=356
+2:197  0:000   Found table: SSDT  IsctTabl len=1673
+2:197  0:000  Calibrated TSC frequency =1596307110 =1596MHz
+2:197  0:000  Loading main settings
+2:197  0:000  Read NVCAP:0000000000000000000000000000000000000000
+2:197  0:000  USB FixOwnership: true
+2:197  0:000  Dropping 1 tables
+2:197  0:000  Drop table 0
+2:197  0:000  set table: 00000000,                0 to drop:  true
+2:197  0:000  
+2:197  0:000  Config set Fixes will override FixMask mask!
+2:197  0:000     final mask=90000000
+2:197  0:000  Config set ResetAddr=0x0
+2:197  0:000  Config calc ResetVal=0x0
+2:197  0:000  Config set ResetVal=0x0
+2:197  0:000  Config set ChassisType=0xA
+2:197  0:000  Config set QPI = 0 disable table132
+2:197  0:000  Config set CpuFreq=1596MHz
+2:197  0:000  Config set CpuType=605
+2:197  0:000  Config set BusSpeed=99769kHz
+2:197  0:000  Error: invalid CustomUUID '' - should be in the format XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
+2:197  0:000  found 11 volumes with blockIO
+2:197  0:000   0. Volume:
+2:197  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)
+2:201  0:004   1. Volume:
+2:201  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,BFDF46AB-F883-4AC7-8C76-807B5C3E8A2B,0x800,0x200000)
+2:202  0:000    Result of bootcode detection: bootable Windows (vista,win)
+2:202  0:000   2. Volume:
+2:202  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,17B93D69-4C7F-4D68-B152-33D2FD065508,0x200800,0xFA000)
+2:203  0:000    Result of bootcode detection: bootable Windows (vista,win)
+2:207  0:004    This is SelfVolume !!
+2:207  0:000   3. Volume:
+2:207  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,24CA26D8-4392-45E4-8FEE-954A36CE7BAB,0x2FA800,0x40000)
+2:208  0:000   4. Volume:
+2:208  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,CC2147CD-90BA-46CF-8EEB-0F06691A4FF7,0x33A800,0x7964800)
+2:208  0:000    Result of bootcode detection: bootable Windows (vista,win)
+2:209  0:000   5. Volume:
+2:209  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,09A2790C-8CF8-4EFC-9998-9AFA5046409D,0x7C9F800,0x4E83000)
+2:209  0:000    Result of bootcode detection: bootable Windows (vista,win)
+2:210  0:000   6. Volume:
+2:210  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4EC26D8C-4E8D-460C-BF9E-0FF97F89B86F,0xCB22800,0xF1800)
+2:211  0:000    Result of bootcode detection: bootable Windows (vista,win)
+2:211  0:000   7. Volume:
+2:211  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(7,GPT,E5D06F55-EF37-4221-BF66-2EBC478D76FE,0xCC14000,0x251C000)
+2:211  0:000   8. Volume:
+2:211  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(8,GPT,C98991A9-B92F-4B58-A8BA-E034E71BB339,0xF130000,0x9BBD800)
+2:212  0:000    Result of bootcode detection: bootable Windows (vista,win)
+2:212  0:000   9. Volume:
+2:212  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(9,GPT,DB03578A-F43E-4AE4-ABA0-1DF4B1A9272E,0x18CEE000,0x4E8F8E0)
+2:213  0:000  10. Volume:
+2:213  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(10,GPT,2FBF9A41-6E49-4DA5-8C0F-89FC0EDFB897,0x1DB7D8E0,0x135F20)
+2:213  0:000  PutNvramPlistToRtVars: nvram.plist not found
+2:213  0:000   using embedded theme
+2:213  0:000  Choosing theme <null string>
+2:214  0:000  Custom entries start
+2:214  0:000  Custom entries finish
+2:214  0:000  Scanning loaders...
+2:214  0:000   0: 'Whole Disc Boot' no file system
+2:214  0:000   1: 'WINRETOOLS'
+2:215  0:001   2: 'ESP'
+2:216  0:001      AddLoaderEntry for Volume Name=ESP
+2:217  0:001      AddLoaderEntry for Volume Name=ESP
+3:126  0:909   3: 'Legacy HD3' no file system
+3:126  0:000   4: ''
+3:126  0:000   5: ''
+3:127  0:000   6: ''
+3:128  0:000   7: 'Legacy HD7' no file system
+3:128  0:000   8: 'Legacy HD8' no file system
+3:128  0:000   9: 'MAC'
+3:129  0:001      AddLoaderEntry for Volume Name=MAC
+3:131  0:002      Check if volume Is Hibernated:
+3:131  0:000      Check sleep image 'by signature':
+3:134  0:002      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Not Found
+3:134  0:000      using default sleep image name = \private\var\vm\sleepimage
+3:135  0:001      Reading first 512 bytes of sleepimage ...
+3:136  0:000   OurBlockIoRead: Lba=1AB2E278, Offset=3565C4F000 (BlockSize=512)
+3:136  0:000   sig lion: 20524F20
+3:136  0:000   sig snow: 2E77656E
+3:136  0:000   no valid sleep image offset was found
+3:136  0:000      Reading completed -> Success
+3:136  0:000       sleepimage offset could not be acquired
+3:136  0:000       hibernated: no - sign
+3:138  0:001  10: 'Recovery HD'
+3:138  0:000      AddLoaderEntry for Volume Name=Recovery HD
+3:140  0:001  Custom legacy start
+3:140  0:000  Custom legacy end
+3:140  0:000  Scanning legacy ...
+3:140  0:000   0: 'Whole Disc Boot' (legacy) not legacy
+3:140  0:000   1: 'WINRETOOLS' (vista,win) add legacy
+3:140  0:000   added 'Boot Windows from WINRETOOLS' OSType=2 Icon=vista,win
+3:140  0:000   2: 'ESP' (vista,win) add legacy
+3:140  0:000   added 'Boot Windows from ESP' OSType=2 Icon=vista,win
+3:140  0:000   3: 'Legacy HD3' (legacy) not legacy
+3:140  0:000   4: '' (vista,win) add legacy
+3:140  0:000   added 'Boot Windows from ' OSType=2 Icon=vista,win
+3:140  0:000   5: '' (vista,win) add legacy
+3:140  0:000   added 'Boot Windows from ' OSType=2 Icon=vista,win
+3:140  0:000   6: '' (vista,win) add legacy
+3:140  0:000   added 'Boot Windows from ' OSType=2 Icon=vista,win
+3:140  0:000   7: 'Legacy HD7' (legacy) not legacy
+3:140  0:000   8: 'Legacy HD8' (vista,win) add legacy
+3:140  0:000   added 'Boot Windows from Legacy HD8' OSType=2 Icon=vista,win
+3:140  0:000   9: 'MAC' (legacy) not legacy
+3:140  0:000  10: 'Recovery HD' (legacy) not legacy
+3:140  0:000  Custom tool start
+3:140  0:000  Custom tool end
+3:143  0:002  found tool \EFI\CLOVER\tools\Shell64U.efi
+3:143  0:000  Checking EFI partition Volume 2 for Clover
+3:143  0:000   Found Clover
+3:143  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+3:144  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+3:159  0:015  GetEfiBootDeviceFromNvram: efi-boot-device-data not found
+3:159  0:000  EfiBootVolume not found
+3:159  0:000   found entry 0. 'Boot Microsoft EFI boot menu from ESP', Volume 'ESP', DevicePath 'PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,17B93D69-4C7F-4D68-B152-33D2FD065508,0x200800,0xFA000)\EFI\microsoft\Boot\bootmgfw.efi'
+3:159  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+3:159  0:000  DefaultIndex=0 and MainMenu.EntryCount=16
+4:249  1:089  GUI ready
+216:843  212:594  Text <help> rendered
+225:162  8:318  ReinitSelfLib after theme change
+225:162  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,17B93D69-4C7F-4D68-B152-33D2FD065508,0x200800,0xFA000)
+225:162  0:000  found 11 volumes with blockIO
+225:162  0:000   0. Volume:
+225:162  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)
+225:162  0:000   1. Volume:
+225:162  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,BFDF46AB-F883-4AC7-8C76-807B5C3E8A2B,0x800,0x200000)
+225:163  0:000    Result of bootcode detection: bootable Windows (vista,win)
+225:163  0:000   2. Volume:
+225:163  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,17B93D69-4C7F-4D68-B152-33D2FD065508,0x200800,0xFA000)
+225:163  0:000    Result of bootcode detection: bootable Windows (vista,win)
+225:163  0:000    This is SelfVolume !!
+225:163  0:000   3. Volume:
+225:163  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,24CA26D8-4392-45E4-8FEE-954A36CE7BAB,0x2FA800,0x40000)
+225:164  0:000   4. Volume:
+225:164  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,CC2147CD-90BA-46CF-8EEB-0F06691A4FF7,0x33A800,0x7964800)
+225:165  0:000    Result of bootcode detection: bootable Windows (vista,win)
+225:165  0:000   5. Volume:
+225:165  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,09A2790C-8CF8-4EFC-9998-9AFA5046409D,0x7C9F800,0x4E83000)
+225:165  0:000    Result of bootcode detection: bootable Windows (vista,win)
+225:165  0:000   6. Volume:
+225:165  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,4EC26D8C-4E8D-460C-BF9E-0FF97F89B86F,0xCB22800,0xF1800)
+225:166  0:000    Result of bootcode detection: bootable Windows (vista,win)
+225:166  0:000   7. Volume:
+225:166  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(7,GPT,E5D06F55-EF37-4221-BF66-2EBC478D76FE,0xCC14000,0x251C000)
+225:166  0:000   8. Volume:
+225:166  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(8,GPT,C98991A9-B92F-4B58-A8BA-E034E71BB339,0xF130000,0x9BBD800)
+225:167  0:000    Result of bootcode detection: bootable Windows (vista,win)
+225:168  0:000   9. Volume:
+225:168  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(9,GPT,DB03578A-F43E-4AE4-ABA0-1DF4B1A9272E,0x18CEE000,0x4E8F8E0)
+225:168  0:000  10. Volume:
+225:168  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(10,GPT,2FBF9A41-6E49-4DA5-8C0F-89FC0EDFB897,0x1DB7D8E0,0x135F20)
+225:169  0:000  PutNvramPlistToRtVars: nvram.plist not found
+225:169  0:000  Choosing theme <null string>
+225:169  0:000  Custom entries start
+225:169  0:000  Custom entries finish
+225:169  0:000  Scanning loaders...
+225:169  0:000   0: 'Whole Disc Boot' no file system
+225:169  0:000   1: 'WINRETOOLS'
+225:169  0:000   2: 'ESP'
+225:169  0:000      AddLoaderEntry for Volume Name=ESP
+225:170  0:000      AddLoaderEntry for Volume Name=ESP
+226:086  0:916   3: 'Legacy HD3' no file system
+226:086  0:000   4: ''
+226:087  0:000   5: ''
+226:087  0:000   6: ''
+226:088  0:000   7: 'Legacy HD7' no file system
+226:088  0:000   8: 'Legacy HD8' no file system
+226:088  0:000   9: 'MAC'
+226:088  0:000      AddLoaderEntry for Volume Name=MAC
+226:088  0:000      Check if volume Is Hibernated:
+226:088  0:000      Check sleep image 'by signature':
+226:088  0:000      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Not Found
+226:088  0:000      using default sleep image name = \private\var\vm\sleepimage
+226:088  0:000      Reading first 512 bytes of sleepimage ...
+226:088  0:000      Reading completed -> Success
+226:088  0:000       sleepimage offset could not be acquired
+226:088  0:000       hibernated: no - sign
+226:089  0:000  10: 'Recovery HD'
+226:089  0:000      AddLoaderEntry for Volume Name=Recovery HD
+226:090  0:000  Custom legacy start
+226:090  0:000  Custom legacy end
+226:090  0:000  Scanning legacy ...
+226:090  0:000   0: 'Whole Disc Boot' (legacy) not legacy
+226:090  0:000   1: 'WINRETOOLS' (vista,win) add legacy
+226:090  0:000   added 'Boot Windows from WINRETOOLS' OSType=2 Icon=vista,win
+226:090  0:000   2: 'ESP' (vista,win) add legacy
+226:090  0:000   added 'Boot Windows from ESP' OSType=2 Icon=vista,win
+226:090  0:000   3: 'Legacy HD3' (legacy) not legacy
+226:090  0:000   4: '' (vista,win) add legacy
+226:090  0:000   added 'Boot Windows from ' OSType=2 Icon=vista,win
+226:090  0:000   5: '' (vista,win) add legacy
+226:090  0:000   added 'Boot Windows from ' OSType=2 Icon=vista,win
+226:090  0:000   6: '' (vista,win) add legacy
+226:090  0:000   added 'Boot Windows from ' OSType=2 Icon=vista,win
+226:090  0:000   7: 'Legacy HD7' (legacy) not legacy
+226:090  0:000   8: 'Legacy HD8' (vista,win) add legacy
+226:090  0:000   added 'Boot Windows from Legacy HD8' OSType=2 Icon=vista,win
+226:090  0:000   9: 'MAC' (legacy) not legacy
+226:090  0:000  10: 'Recovery HD' (legacy) not legacy
+226:090  0:000  Custom tool start
+226:090  0:000  Custom tool end
+226:090  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+226:090  0:000  Checking EFI partition Volume 2 for Clover
+226:090  0:000   Found Clover
+226:090  0:000  EmuVariable UninstallEmulation: CloseEvent = Invalid Parameter, original var services restored
+226:090  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+226:107  0:016  GetEfiBootDeviceFromNvram: efi-boot-device-data not found
+226:107  0:000  EfiBootVolume not found
+226:107  0:000   found entry 0. 'Boot Microsoft EFI boot menu from ESP', Volume 'ESP', DevicePath 'PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,17B93D69-4C7F-4D68-B152-33D2FD065508,0x200800,0xFA000)\EFI\microsoft\Boot\bootmgfw.efi'
+226:107  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+226:107  0:000  DefaultIndex=0 and MainMenu.EntryCount=16
